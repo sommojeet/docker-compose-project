@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+        mysql_database:     # the database service
+                image: mysql:5.7      # starting the service from this image
+                restart: always
+                environment:
+                        MYSQL_ROOT_PASSWORD: rootpass     # root account password
+                        MYSQL_USER: sommojeet             # creating new user
+                        MYSQL_PASSWORD: redhat            # new user password
+                        MYSQL_DATABASE: mydb              # the database name
+                volumes:
+                        - mysql_storage:/var/lib/mysql      # Mounting mysql_storage to the directory where the files are stored
+
+
+
+        wordpress:      # wordpress service
+                image: wordpress:5.1.1-php7.3-apache      # starting the service from this image
+                restart: always
+                depends_on:
+                        - mysql_database
+                ports:
+                        - 8081:80
+                environment:
+                        WORDPRESS_DB_HOST: mysql_database     # database host for wordpress
+                        WORDPRESS_DB_USER: sommojeet          # database user
+                        WORDPRESS_DB_PASSWORD: redhat         # database user password
+                        WORDPRESS_DB_NAME: mydb               # database name
+                volumes:
+                        - wp_storage:/var/www/html      # Mounting wp_storage to the directory where the files are stored
+
+
+
+volumes:          # creating the storages
+        wp_storage:
+        mysql_storage:

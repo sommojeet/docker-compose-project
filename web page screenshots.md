@@ -20,6 +20,4 @@
 
 ![Screenshot (62)](https://user-images.githubusercontent.com/64471684/80862528-7e950d00-8c93-11ea-8cef-133fa4dd7ddb.png)
 
-![Screenshot (63)](https://user-images.githubusercontent.com/64471684/80862538-848aee00-8c93-11ea-8af4-ccd07fc6cb87.png)
-
 ![Screenshot (64)](https://user-images.githubusercontent.com/64471684/80862542-881e7500-8c93-11ea-8ef0-15affefc9210.png)

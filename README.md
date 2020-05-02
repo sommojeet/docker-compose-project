@@ -1,5 +1,12 @@
 # docker-compose-project
 
+Here are the steps I followed to create this project:-
+
+1) Installed docker using command ```yum istall docker-ce --nobest```.
+2) Disabled firewall, because it create conflicts while connecting to web server. Command is ```systemctl stop firewalld```.
+To keep it disabled even after reboot, ```systemctl disable firewalld```.
+3) 
+
 Download this repo by copying the link provded in the "Clone or download" button in green at the right.
 then, use the command in your terminal:
 

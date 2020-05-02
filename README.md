@@ -2,7 +2,7 @@
 
 Here are the steps I followed to create this project:-
 
-1) Installed docker using command ```yum istall docker-ce --nobest```.
+1) Installed docker using command ```yum install docker-ce --nobest```.
 2) Disabled firewall, because it create conflicts while connecting to web server. Command is ```systemctl stop firewalld```.
 To keep it disabled even after reboot, ```systemctl disable firewalld```.
 3) Started docker services using command ```systemctl start docker```, enabled permanently using ```systemctl enable docker```

@@ -7,7 +7,9 @@ Here are the steps I followed to create this project:-
 To keep it disabled even after reboot, ```systemctl disable firewalld```.
 3) Started docker services using command ```systemctl start docker```, enabled permanently using ```systemctl enable docker```
 4) Downloaded wordpress and my sql images from docker hub using comands
+
 ```docker pull wordpress:5.1.1-php7.3-apache```
+
 ```docker pull mysql:5.7```
 5) Created a workspace for docker compose naming "mycompose"
 6) inside workspace created the file docker-compose.yml and wrote the code in yaml format. The entire code is available in this repository with the exact same name. You can download this repo in your redhat system by following the below steps.

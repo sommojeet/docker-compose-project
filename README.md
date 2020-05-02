@@ -30,4 +30,3 @@ Now go to the directory where you downloaded and do:
 
 This will start both the services of wordpress and database.
 
-![ss](file:///C:/Users/Sommojeet/Pictures/Screenshots/Screenshot%20(52).png)

@@ -13,7 +13,7 @@ To keep it disabled even after reboot, ```systemctl disable firewalld```.
 ```docker pull mysql:5.7```
 
 5) Created a workspace for docker compose naming "mycompose"
-6) inside workspace created the file docker-compose.yml and wrote the code in yaml format. The entire code is available in this repository with the exact same name. You can download this repo in your redhat system by following the below steps.
+6) inside workspace created the file ```docker-compose.yml``` and wrote the code in yaml format. The entire code is available in this repository with the exact same name. You can download this repo in your redhat system by following the below steps.
 
 Download this repo by copying the link provded in the "Clone or download" button in green at the right.
 then, use the command in your terminal:
